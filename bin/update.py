@@ -1,7 +1,5 @@
 #!/usr/bin/python
 #
-# Author: Christopher Minson
-#
 # update.py
 # updates audiodharma.ai with new raw transcripts
 # based off config file showing all talks, for any talk that is not transcribed, download

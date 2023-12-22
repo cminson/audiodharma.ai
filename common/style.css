@@ -18,7 +18,7 @@ header {
 }
 
 
-#ID_SITE_ICON_DIV {
+#ID_SITE_DIV {
   margin-right: auto; 
 }
 
@@ -34,27 +34,19 @@ header {
     color: white;
 }
 
-#ID_SHARE_ICON_DIV {
+#ID_SHARE_DIV {
     margin-right: 10px;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-#ID_SHARE_ICON {
-    width: 40px;
-}
 
-
-#ID_GUIDE_ICON_DIV {
+#ID_GUIDE_DIV {
     margin-right: 20px;
     font-size: 20px;
     font-weight: bold;
     color: white;
-}
-
-#ID_GUIDE_ICON {
-    width: 40px;
 }
 
 
@@ -102,7 +94,7 @@ body {
     font-size: 18px;
     height: 100%;
     border: 1px solid black;
-    width: 300px;
+    width: 400px;
     margin: 0; 
     padding: 0; 
     margin-right: 0px;
@@ -213,29 +205,19 @@ body {
         font-size: 25px;
     }
 
-    #ID_SHARE_ICON_DIV {
+    #ID_SHARE_DIV {
         font-size: 12px;
     }
 
-    #ID_GUIDE_ICON_DIV {
+    #ID_GUIDE_DIV {
         font-size: 12px;
-    }
-
-    #ID_SHARE_ICON {
-        margin-top:3px;
-        width: 30px;
-    }
-
-    #ID_GUIDE_ICON {
-        margin-top:3px;
-        width: 30px;
     }
 
     #ID_HUMAN_INPUT_AREA {
         margin-bottom: 40px;
     }
 
-    #ID_HUMAN_INPUT_AREA {
+    #ID_HUMAN_INPUT {
         width: 300px;
         font-size: 18px;
     }
@@ -314,12 +296,15 @@ body {
  * currently all the same
  */
 #ID_SCORE_HIGH {
+    color: #FF8C00;
     color: #333333;;
 }
 #ID_SCORE_MEDIUM {
+    color: #FF8C00;
     color: #333333;;
 }
 #ID_SCORE_LOW {
+    color: #FF8C00;
     color: #333333;
 }
 
