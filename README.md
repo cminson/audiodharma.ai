@@ -11,7 +11,7 @@ Although tailored specifically to that use-case, this project could also serve a
 
 # Prerequisites
 
-Python3.10+
+Python3
 <br>
 Qdrant vector database, running in a docker container
 <br>
@@ -34,7 +34,7 @@ All globals and common utilities are found in ./bin/common.py.
 All other supporting runtime code is found in ./bin
 <p>
 All data files are found in ./data.  The file data.zip captures a snapshot of the file structure and data.
-It can be downloaded here:  www.audiodharma.ai/data_snapshot.zip
+It can be downloaded here:  www.audiodharma.ai/data_snapshot.zip.
 <P>
 Note that this zip excludes the underlying mp3 files.  
 If required, these can be obtained from www.audiodharma.org.
