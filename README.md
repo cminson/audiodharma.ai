@@ -12,13 +12,15 @@ Although tailored specifically to that use-case, this project could also serve a
 # Prerequisites
 
 Python3.10+
+<br>
 Qdrant vector database, running in a docker container
+<br>
 OpenAI 3.5 Keys and API  (portable to any LLM with similar functionality)
 <p>
 The base installation runs on Ubuntu 20.04 and Apache.
 
 
-# overview
+# Overview
 
 All the javascript code can be found in ./common/main.js.  This integrates with the HTML files, and provides all the site interactivity.
 <p>
@@ -34,7 +36,7 @@ All other supporting runtime code is found in ./bin
 All data files are found in ./data.  The file data.zip captures a snapshot of the file structure and data.
 Note that this zip excludes the underlying mp3 files.  If required, these can be obtained from www.audiodharma.org.
 
-# building
+# Building
 
 To build all required data files and populate the vector database, execute ./bin/xbuild.  This does the following:
 - translates all raw talk transcripts into a simple standard HTML format
@@ -57,6 +59,3 @@ All of the generated json files are stored in respective directories in ./data. 
 
 
 
-
-
-# audiodharma.ai
