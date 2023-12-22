@@ -1,0 +1,78 @@
+<?php include __DIR__ . '/common/head.php'; ?>
+
+<html style="background-color: #654321; height: 100%; margin: 0">
+
+<style>
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gateway {
+
+    width: 50%;
+    background-color: #654321;
+    position: relative;
+    bottom: 0;
+    color: white;
+
+    /* Set up transition */
+    transition: transform 1.5s ease-in-out;
+}
+
+
+.gateway.slide-out {
+    /* Slide up out of the page */
+    transform: translateY(-100vh); /* Adjust as needed */
+}
+
+
+#ID_LOGIN_BUTTON {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    border: 1px solid black;
+    background-color: #654321;
+}
+
+#ID_LOGIN_INPUT {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    font-size: 28px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+</style>
+
+<body style="background-color: #654321; height: 100%; margin: 0">
+
+    <div class="centered-div">
+
+        <div id="ID_GATEWAY" class="gateway">
+            <center>
+            <span style="font-size: 25px; xwhite-space: nowrap" >AudioDharma AI</span>
+            <p>
+            <span style="font-size: 20px; xwhite-space: nowrap" >Buddhism Meets Artificial Intelligence
+            </span>
+            <br><p>
+            <input type="text"  maxlength="50" id="ID_LOGIN_INPUT" value="">
+            <br>
+            <button id="ID_LOGIN_BUTTON" onclick="login()">enter code</button>
+            </center>
+        </div>
+
+    </div>
+</body>
+</html>
+
+

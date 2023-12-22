@@ -1,0 +1,357 @@
+/*
+ * Header Area: Web Icon, Title, Share Icon, Guide Icon
+ */
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: #654321;
+    font-family: "Helvetica, Tahoma";
+    z-index: 2;
+}
+
+
+#ID_SITE_ICON_DIV {
+  margin-right: auto; 
+}
+
+#ID_SITE_ICON {
+    width: 45px;
+}
+
+#ID_SITE_TITLE_DIV {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#ID_SHARE_ICON_DIV {
+  margin-right: 0px;
+}
+
+#ID_SHARE_ICON {
+    width: 40px;
+}
+
+
+#ID_GUIDE_ICON_DIV {
+  margin-right: 10px;
+}
+
+#ID_GUIDE_ICON {
+    width: 40px;
+}
+
+
+/* necessary to avoid weird scrolling. Height must equal header height. */
+#ID_HEADER_BUFFER {
+    height: 50px;
+    z-index: 1;
+}   
+
+
+/* 
+ * main body, home page
+ */
+body {
+    background-color: white;
+    font-family: Helvetica, Tahoma;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#ID_HOME_PAGE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: white;
+    z-index: 1;
+
+}
+
+
+/*
+ * elements within home page
+ */
+#ID_HUMAN_INPUT_AREA {
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#ID_HUMAN_INPUT {
+    font-size: 18px;
+    height: 100%;
+    border: 1px solid black;
+    width: 300px;
+    margin: 0; 
+    padding: 0; 
+    margin-right: 0px;
+}
+
+#ID_EXECUTE_OPERATION_BUTTON {
+    width: 120px;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #654321;
+    margin: 20; 
+    padding: 20; 
+    margin-left: 2px; 
+}
+
+#ID_PAGE_TITLE {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ID_ERROR_REPORT {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+#ID_SUMMARY {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;;
+    border: 1px solid white; 
+    margin-top: 30px;
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+#ID_BUSY_CONTAINER {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    z-index: 9999;
+}
+
+#ID_BUSY_CANVAS {
+  width: 120px;
+  background-color: transparent;
+}
+
+#ID_CONTENT_CONTAINER {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid white; 
+    font-size: 20px; 
+    background-color: yellow;
+}
+
+
+#ID_CONTENT_CONTAINER {
+    text-align: left;
+    box-sizing: content-box; /* Changed from border-box to content-box */
+    width: calc(100% - 40px); /* Adjusted width to account for margins */
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: white;
+}
+
+#ID_MORE_TALKS {
+    text-decoration: underline;
+    visibility: hidden;
+}
+
+
+
+/*
+ * adjustments for small screens
+ */
+@media screen and (max-width: 600px) {
+
+    header {
+        min-width: 100%;
+        height: 40px;
+    }
+
+    #ID_HEADER_BUFFER {
+        height: 40px;
+    }
+
+    #ID_SITE_ICON {
+        margin-top:3px;
+        width: 30px;
+    }
+
+    #ID_SITE_TITLE_DIV {
+        font-size: 28px;
+    }
+
+    #ID_SHARE_ICON {
+        margin-top:3px;
+        width: 30px;
+    }
+
+    #ID_GUIDE_ICON {
+        margin-top:3px;
+        width: 30px;
+    }
+
+    #ID_HUMAN_INPUT_AREA {
+        margin-bottom: 40px;
+    }
+
+    #ID_HUMAN_INPUT_AREA {
+        width: 300px;
+        font-size: 18px;
+    }
+    #ID_EXECUTE_OPERATION_BUTTON {
+        width: 140px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    #ID_CONTENT_CONTAINER {
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+
+
+/*
+ * talk page elements
+ */
+#ID_TALK_TITLE {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+#ID_TALK_META {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+#ID_TALK_SUMMARY {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+#ID_AUDIO_PLAYER {
+    margin-top: 25px;
+}
+
+#ID_TALK_TEXT {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 18px; 
+    font-weight: normal;
+}
+
+#ID_TALK_CONTENT {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: black;
+    font-size: 18px;
+}
+
+/*
+ * adjustments for small screens
+ */
+@media screen and (max-width: 600px) {
+    #ID_TALK_CONTENT {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/*
+ * colors for various relevance scores
+ * currently all the same
+ */
+#ID_SCORE_HIGH {
+    color: #654321;;
+}
+#ID_SCORE_MEDIUM {
+    color: #654321;;
+}
+#ID_SCORE_LOW {
+    color: #654321;
+}
+
+/*
+ * supporting elements
+ */
+hr {
+    border: none;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+hr.SEPARATOR {
+  border: none;
+  background-color: lightgray;
+  height: 1px;
+}
+
+a.MATCH_LINK {
+ 
+    xtext-decoration: none; 
+    color: black;
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+a.CHAT_LINK {
+    color: black;
+    font-weight: normal; 
+}
+
+a {
+    color: black;
+}
+
+
+span.SEPARATOR {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

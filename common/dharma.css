@@ -1,0 +1,401 @@
+
+/*
+ * Header Area: Title, Icon, Explore/Chat/FAQ buttons
+ */
+header {
+    position:fixed;
+    display: relative;
+    top: 0;
+    left: 0;
+    height: 60px;
+    min-width: 600px;
+    background-color: #654321;
+    font-family: "Helvetica, Tahoma";
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+/* necessary to avoid weird scrolling. Height must equal header height. */
+#ID_HEADER_BUFFER {
+    height: 60px;
+    z-index: 1;
+}   
+
+
+#ID_HEADER_ICON {
+    position:absolute;
+    top:3px; 
+    left:10px; 
+}   
+
+
+#ID_BANNER_AUDIODHARMA {
+    position:absolute;
+    top:12px; 
+    left:75px; 
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+button.MODE_SELECT {
+    width: 90px;
+    height: 30px;
+    top:16px; 
+    font-size: 18px;
+    color: white;
+    background-color: #654321;
+    border: 1px solid white;
+    outline: 1px solid white;
+
+}
+
+#ID_BUTTON_EXPLORE {
+    position:absolute;
+    right:210px; 
+}   
+
+#ID_BUTTON_CHAT {
+    position:absolute;
+    right:110px; 
+}   
+
+#ID_BUTTON_HELP {
+    position:absolute;
+    right:10px; 
+}   
+
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        min-width: 100%;
+    }
+
+    #ID_HEADER_ICON {
+        top: 8px;
+        width: 35px;
+        visibility: hidden
+    }
+
+    #ID_BANNER_AUDIODHARMA {
+        font-size: 22px;
+        top:15px; 
+        left:5px; 
+    }
+
+    button.MODE_SELECT {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        top:13px; 
+        font-size: 15px;
+        background-color: #654321;
+        border: 1px solid white;
+        outline: 1px solid white;
+
+    }
+
+    #ID_BUTTON_EXPLORE {
+        position:absolute;
+        right:130px; 
+    }
+    #ID_BUTTON_CHAT {
+        position:absolute;
+        right:65px; 
+    }
+    #ID_BUTTON_HELP {
+        position:absolute;
+        right:0px; 
+    }
+
+} 
+
+
+
+
+/*
+ * Human input zone at top of page
+ */
+#ID_HUMAN_INPUT_AREA {
+    display: flex;
+    height: 50px;
+    width: 500px;
+    font-size: 28px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#ID_HUMAN_INPUT {
+    flex: 1;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+#ID_EXECUTE_OPERATION_BUTTON {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 100%;
+    width: 110px;
+    color: white;
+    border: 1px solid black;
+    background-color: #654321;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #ID_HUMAN_INPUT_AREA {
+        height: 40px;
+        width: 350px;
+        font-size: 18px;
+    }
+    #ID_EXECUTE_OPERATION_BUTTON {
+        width: 80px;
+        font-size: 18px;
+    }
+
+}
+
+
+/* container and canvas for busy icon */
+#ID_BUSY_CONTAINER {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    z-index: 9999;
+}
+
+#ID_BUSY_CANVAS {
+  width: 200px;
+  background-color: transparent;
+}
+
+
+
+/*
+ * Main Body
+ *
+ */
+body {
+    background-color: white;
+    font-family: Helvetica, Tahoma;
+    font-size: 20px;
+    text-align: center;
+}
+
+#ID_HOME_PAGE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#ID_PAGE_TITLE {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    xdisplay: none;
+}
+
+.TALK_TITLE {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.TALK_SPEAKER {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.TALK_META {
+    text-align: center;
+    font-size: 18px;
+}
+
+#ID_TALK_CONTENT {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: black;
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    #ID_TALK_CONTENT {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+#ID_META_SUMMARY {
+    text-align: left;
+    width: 80%;
+    background-color: white;;
+    border: 1px solid white; 
+    margin-top: 30px;
+    font-size: 20px; 
+}
+
+#ID_MATCH_CONTAINER {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;;
+    border: 2px solid white; 
+    font-size: 20px; 
+}
+@media screen and (max-width: 600px) {
+    #ID_MATCH_CONTAINER {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+#ID_CHAT_CONTAINER {
+    text-align: left;
+    width: 80%;
+    font-size: 20px; 
+    max-height: 100%;
+    overflow: auto; 
+}
+
+.MATCH {
+    text-align: left;
+    width: 100%;
+    resize: none;
+    xborder: 1px solid darkorange; 
+    overflow: hidden;
+    margin-top:10px;
+    margin-bottom:40px;
+    font-size: 20px; 
+}
+
+hr {
+    border: none;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+hr.SEPARATOR {
+  border: none;
+  background-color: lightgray;
+  height: 1px;
+}
+
+a.TOPLEVEL_NAV_LINK {
+    color: black;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+a.MATCH_LINK {
+ 
+    xtext-decoration: none; 
+    color: black;
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+a.CHAT_LINK {
+    color: black;
+    font-weight: normal; 
+}
+
+
+span.SEPARATOR {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+#ID_TALK_TITLE {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+#ID_TALK_META {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+#ID_TALK_SUMMARY {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+#ID_AUDIO_PLAYER {
+    margin-top: 25px;
+}
+
+#ID_TALK_TEXT {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 16px; 
+    font-weight: normal;
+}
+
+#ID_MORE_TALKS {
+    text-decoration: underline;
+    visibility: hidden;
+}
+
+#ID_RESET_CHAT {
+    color: brown;
+    font-size: 20px;
+    font: "Tahoma";
+    text-decoration: underline;
+    margin-bottom: 15px;
+    visibility: hidden;;
+}
+
+a {
+    color: black;
+
+}
+
+
+/* 
+ * Responsive media CSS
+ * 
+ */
+@media screen and (max-width: 600px) {
+    #ID_TEXT {
+    font-size: 18px; 
+        height: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+

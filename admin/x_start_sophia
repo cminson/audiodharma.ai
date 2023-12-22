@@ -1,0 +1,1 @@
+nohup /var/www/audiodharma/httpdocs/bin/sophia.py > /dev/null 2>&1 &

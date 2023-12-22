@@ -1,0 +1,27 @@
+
+Docker lives in /home/ubuntu/docker
+Qdrant lives there too
+
+docker ps // see status
+/home/ubuntu/docker/xrun  // to launch docker with qdrant
+
+
+sudo systemctl is-active docker
+docker images // see images
+docker images ls // see images
+docker ps -a   // see containers
+docker rm <id>  // remove containers
+docker rmi <id>  // remove image
+
+docker system prune -a  // reclaim disk space
+
+docker stop [container name]  // stock a container
+docker logs [container name]  // view log of a container
+
+# see all collections in qdrant
+curl -X GET http://localhost:6333/collections
+
+#delete a collection in qdrant
+curl -X DELETE http://localhost:6333/collections/COLLECTION_NAME
+~                                                                                                                      
+

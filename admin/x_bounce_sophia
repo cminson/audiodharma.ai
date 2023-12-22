@@ -1,0 +1,8 @@
+cd /var/www/audiodharma/httpdocs/admin/
+echo "shutting down sophia"
+./x_stop_sophia
+sleep 10
+echo "launching sophia"
+./x_start_sophia
+sleep 10
+echo "sophia active"

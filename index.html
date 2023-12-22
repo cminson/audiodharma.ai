@@ -1,0 +1,33 @@
+<?php include __DIR__ . '/common/head.php'; ?>
+<body onload=initIndex()>
+<?php include __DIR__ . '/common/banner.php'; ?>
+
+
+<div id="ID_HOME_PAGE">
+
+    <div id="ID_HUMAN_INPUT_AREA">
+        <input type="text"  maxlength="50" id="ID_HUMAN_INPUT" value=""><button id="ID_EXECUTE_OPERATION_BUTTON" onclick="getExploreInput()">Ask&nbsp;Sophia</button>
+    </div>
+
+    <hr>
+
+    <div id="ID_PAGE_TITLE"></div>
+    <div id="ID_ERROR_REPORT"> </div>
+
+    <div id="ID_SUMMARY"> </div>
+
+    <div id="ID_BUSY_CONTAINER">
+        <canvas id="ID_BUSY_CANVAS"></canvas>
+    </div>
+
+    <div id="ID_CONTENT_CONTAINER"></div>
+
+    <p><br>
+    <span id="ID_MORE_TALKS" onclick=getAllTalks()>Display Next 1,000 Talks</span>
+    <p><br>
+
+</div> <!-- end ID_HOME_PAGE -->
+
+</body>
+</html>
+
