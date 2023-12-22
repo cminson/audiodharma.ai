@@ -1,0 +1,17 @@
+# build system
+#
+# 1) generate human-readable talk transcripts
+# 2) generate summaries of every talk, speaker and series
+# 3) generate talk json metadata files, plus index files for all talks
+# 4) generate speaker json metadata files 
+# 5) using Qdrant, vectorize all talk and speaker keys, and store into vector database
+# 6) using the vectors created in 5), generate similarites for all talks and speakers
+# 7) generate series json metadata files
+#
+./gentranscripts.py
+./gensummaries.py
+./gentalks.py
+./genspeakers.py
+./genvecdb.py 
+./gensimilar.py
+./genseries.py
