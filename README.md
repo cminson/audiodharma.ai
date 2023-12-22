@@ -36,7 +36,7 @@ All globals and common utilities are found in ./bin/common.py.
 All other supporting runtime code is found in ./bin
 <p>
 All data files are found in ./data.  A snapshot of the file structure and data can be downloaded here:  
- <a href="https://www.audiodharma.ai/archives/snapshot_data.zip" download>Download</a>
+ <a href="https://www.audiodharma.ai/archives/snapshot_data.zip" download>download data</a>
 <P>
 Note that this zip excludes the underlying mp3 files.  
 If required, these can be obtained from www.audiodharma.org.
