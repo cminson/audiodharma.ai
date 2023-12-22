@@ -1,6 +1,8 @@
 # Audiodharma.ai
 
 
+An instance of this code runs on www.audiodharma.ai.
+<p>
 AudioDharma AI is an integration of thousands of Buddhist talks with Artificial Intelligence. These talks were given at the Insight Meditation Center (IMC) in Redwood City, California, and can be found at www.audiodharma.org. They include hundreds of diverse speakers with various viewpoints, in talks given over a period of many years..
 <p>
 With IMC's permission, an AI has been trained to be a guide to these talks. Her name is Sophia, and she acts as a guide to the underlying material.
