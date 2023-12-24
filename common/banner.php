@@ -10,7 +10,7 @@ print '
     <div id="ID_SITE_TITLE_DIV" onclick="displayHome()"> AudioDharma AI </div>
 
     <div id="ID_SHARE_DIV" onclick="shareViaEmail()">     
-    email
+    share
     </div>
 
     <div id="ID_GUIDE_DIV" onclick="displayGuide()">

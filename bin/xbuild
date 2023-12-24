@@ -8,6 +8,7 @@
 # 6) using the vectors created in 5), generate similarites for all talks and speakers
 # 7) generate series json metadata files
 #
+cd /var/www/audiodharma/httpdocs/bin
 ./gentranscripts.py
 ./gensummaries.py
 ./gentalks.py
