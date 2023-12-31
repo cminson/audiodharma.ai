@@ -650,6 +650,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 def run(server_class=ThreadedHTTPServer, handler_class=Handler, port=SOPHIA_SERVER_PORT):
 
+    LOG('Sophia Running')
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
 

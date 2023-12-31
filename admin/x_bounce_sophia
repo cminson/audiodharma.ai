@@ -1,6 +1,6 @@
 cd /var/www/audiodharma/httpdocs/admin/
 echo "shutting down sophia"
-./x_stop_sophia
+./stop.py
 sleep 10
 echo "launching sophia"
 ./x_start_sophia

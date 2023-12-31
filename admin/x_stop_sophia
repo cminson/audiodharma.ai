@@ -1,1 +1,1 @@
-curl https://www.audiodharma.ai:3022/?ARG_COMMAND=TERMINATE
+./stop.py
