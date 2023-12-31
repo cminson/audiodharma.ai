@@ -19,6 +19,14 @@ import hashlib
 import numpy as np
 import http.server
 import socketserver
+from common import is_port_available, HOST, SOPHIA_SERVER_PORT
+
+# check to see if any other instance of sophia running, by checking binding of its port
+# do this here, to avoid the cost of imports below, plus any logging pollution
+if not is_port_available(HOST, SOPHIA_SERVER_PORT): 
+    print("not available")
+    exit()
+
 import threading
 import nltk
 import ssl

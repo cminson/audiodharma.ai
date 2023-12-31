@@ -8,6 +8,8 @@ import json
 import logging
 import string
 import hashlib
+import socket
+
 
 
 BASE_PATH = '/var/www/audiodharma/httpdocs/'
@@ -46,6 +48,7 @@ VECTOR_COLLECTION_CACHED_SUMMARIES = 'VECTOR_COLLECTION_CACHED_SUMMARIES' # coll
 MIN_TRANSCRIPT_SIZE = 500
 
 ACTIVE_MODEL = 'gpt-3.5-turbo'
+HOST = '127.0.0.1'
 QDRANT_SERVER_PORT = 6333  # QDrant handles all vector operations
 SOPHIA_SERVER_PORT = 3022  # where this service (sophia) runs
 
@@ -424,6 +427,21 @@ def loadRuleActions():
     dict_rule_actions = {rule["trigger"].lower(): {"action": rule["action"], "parameter": rule["parameter"]} for rule in list_rule_actions}
 
     return dict_rule_actions
+
+
+# check to see if PORT is available for binding
+# used to prevent multiple instances competing for port
+def is_port_available(host, port):
+
+    try:
+        serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        serverSocket.bind((host, port))
+        serverSocket.close()
+        return True
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
 
 
 

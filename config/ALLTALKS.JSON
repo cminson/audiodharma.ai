@@ -8,6 +8,16 @@
 	},
 	"talks":[
 	{
+		"title":"Relationship at the heart of Dharma",
+		"series":"Sunday Morning",
+		"ln":"en",
+		"url":"/19505/20231231-Gil_Fronsdal-IMC-relationship_at_the_heart_of_dharma.mp3",
+		"speaker":"Gil Fronsdal",
+		"pdf":"",
+		"date":"2023.12.31",
+		"duration":"46:21"
+	},
+	{
 		"title":"Dharmette: Equanimity",
 		"series":"7am Weekday Sit & Dharmette",
 		"ln":"en",
@@ -86,6 +96,26 @@
 		"pdf":"",
 		"date":"2023.12.27",
 		"duration":"16:46"
+	},
+	{
+		"title":"Dharmette: Compassion",
+		"series":"",
+		"ln":"en",
+		"url":"/19507/20231227-Liz_Powell-IMC-dharmette_compassion.mp3",
+		"speaker":"Liz Powell",
+		"pdf":"",
+		"date":"2023.12.27",
+		"duration":"15:10"
+	},
+	{
+		"title":"Guided Meditation: Caring",
+		"series":"Guided Meditations",
+		"ln":"en",
+		"url":"/19506/20231227-Liz_Powell-IMC-guided_meditation_caring.mp3",
+		"speaker":"Liz Powell",
+		"pdf":"",
+		"date":"2023.12.27",
+		"duration":"30:38"
 	},
 	{
 		"title":"Happy Hour: Generosity with Discernment",
@@ -43390,7 +43420,7 @@
 	{
 		"title":"Meditación Guiada: Cuerpo",
 		"series":"",
-		"ln":"en",
+		"ln":"es",
 		"url":"/11633/20200628-bruni_d_vila-IRC-meditaci_n_guiada_cuerpo.mp3",
 		"speaker":"Bruni Dávila",
 		"pdf":"",
@@ -50830,7 +50860,7 @@
 	{
 		"title":"Meditación Guada: Pensamientos",
 		"series":"",
-		"ln":"en",
+		"ln":"es",
 		"url":"/10351/20190803-bruni_d_vila-IRC-meditaci_n_gu_ada_pensamientos.mp3",
 		"speaker":"Bruni Dávila",
 		"pdf":"",
@@ -50860,7 +50890,7 @@
 	{
 		"title":"Prácticas Preparatorias Para la Atención Plena de la Respiración",
 		"series":"",
-		"ln":"en",
+		"ln":"es",
 		"url":"/10353/20190802-bruni_d_vila-IRC-pr_cticas_preparatorias_para_la_atenci_n_plena_de_la_respiraci_n.mp3",
 		"speaker":"Bruni Dávila",
 		"pdf":"",
@@ -50880,7 +50910,7 @@
 	{
 		"title":"Meditación Guada: Respiración",
 		"series":"",
-		"ln":"en",
+		"ln":"es",
 		"url":"/10356/20190801-bruni_d_vila-IRC-meditaci_n_gu_ada_respiraci_n.mp3",
 		"speaker":"Bruni Dávila",
 		"pdf":"",
@@ -50910,7 +50940,7 @@
 	{
 		"title":"Los Elementos: Tierra, Agua y la Atención Plena del Cuerpo",
 		"series":"",
-		"ln":"en",
+		"ln":"es",
 		"url":"/10357/20190731-bruni_d_vila-IRC-los_elementos_tierra_agua_y_la_atenci_n_plena_del_cuerpo.mp3",
 		"speaker":"Bruni Dávila",
 		"pdf":"",
@@ -127093,6 +127123,12 @@
 		{
 			"series":"",
 			"section":"_",
+			"title":"Meditación Guiada: Cuerpo",
+			"url":"/11633/20200628-bruni_d_vila-IRC-meditaci_n_guiada_cuerpo.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
 			"title":"Meditación Guiada: Cuerpo y Respiración",
 			"url":"/11631/20200627-Andrea_Castillo-IRC-meditaci_n_guiada_cuerpo_y_respiraci_n.mp3"
 		},
@@ -127159,14 +127195,38 @@
 		{
 			"series":"",
 			"section":"_",
+			"title":"Meditación Guada: Pensamientos",
+			"url":"/10351/20190803-bruni_d_vila-IRC-meditaci_n_gu_ada_pensamientos.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
 			"title":"Meditación Guada: Emociones y Ttradas 1 y 2",
 			"url":"/10354/20190802-Andrea_Castillo-IRC-meditaci_n_gu_ada_emociones_y_t_tradas_1_y_2.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
+			"title":"Prácticas Preparatorias Para la Atención Plena de la Respiración",
+			"url":"/10353/20190802-bruni_d_vila-IRC-pr_cticas_preparatorias_para_la_atenci_n_plena_de_la_respiraci_n.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
 			"title":"Contemplacin de los Cinco Elementos",
 			"url":"/10355/20190801-Andrea_Castillo-IRC-contemplaci_n_de_los_cinco_elementos.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
+			"title":"Meditación Guada: Respiración",
+			"url":"/10356/20190801-bruni_d_vila-IRC-meditaci_n_gu_ada_respiraci_n.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
+			"title":"Los Elementos: Tierra, Agua y la Atención Plena del Cuerpo",
+			"url":"/10357/20190731-bruni_d_vila-IRC-los_elementos_tierra_agua_y_la_atenci_n_plena_del_cuerpo.mp3"
 		},
 		{
 			"series":"",
@@ -129012,6 +129072,10 @@
 		{
 			"title":"Guided Meditation: Appreciative Joy",
 			"url":"/19498/20231228-Liz_Powell-IMC-guided_meditation_appreciative_joy.mp3"
+		},
+		{
+			"title":"Guided Meditation: Caring",
+			"url":"/19506/20231227-Liz_Powell-IMC-guided_meditation_caring.mp3"
 		},
 		{
 			"title":"Guided Meditation: The Ethics of Metta",
@@ -148231,38 +148295,38 @@
 		{
 			"series":"",
 			"section":"_",
-			"title":"5. Guided Meditation: Silence",
-			"url":"/19484/20231222-Gil_Fronsdal-IMC-guided_meditation_silence.mp3"
-		},
-		{
-			"series":"",
-			"section":"_",
-			"title":"6. Guided Meditation: Calming Thoughts",
+			"title":"5. Guided Meditation: Calming Thoughts",
 			"url":"/19480/20231221-Gil_Fronsdal-IMC-guided_meditation_calming_thoughts.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"7. Guided Meditation: Appreciative Joy",
-			"url":"/19498/20231228-Liz_Powell-IMC-guided_meditation_appreciative_joy.mp3"
+			"title":"6. Guided Meditation: Silence",
+			"url":"/19484/20231222-Gil_Fronsdal-IMC-guided_meditation_silence.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"8. Dharmette: The Buddha Within",
+			"title":"7. Dharmette: The Buddha Within",
 			"url":"/19495/20231227-David_Cohn-IMC-dharmette_the_buddha_within.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"9. Dharmette: Alone but not Lonely",
+			"title":"8. Dharmette: Alone but not Lonely",
 			"url":"/19478/20231220-Gil_Fronsdal-IMC-dharmette_alone_but_not_lonely.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"10. Dharmette: Appreciative Joy",
-			"url":"/19499/20231228-Liz_Powell-IMC-dharmette_appreciative_joy.mp3"
+			"title":"9. Guided Meditation: Thinking from the Source",
+			"url":"/19475/20231220-Gil_Fronsdal-IMC-guided_meditation_thinking_from_the_source.mp3"
+		},
+		{
+			"series":"",
+			"section":"_",
+			"title":"10. Dharmette: Wise Thinking (4 of 5) Thoughts that Calm Thinking",
+			"url":"/19481/20231221-Gil_Fronsdal-IMC-dharmette_wise_thinking_4_of_5_thoughts_that_calm_thinking.mp3"
 		}
 		]
 	},
@@ -148336,14 +148400,14 @@
 		{
 			"series":"",
 			"section":"_",
-			"title":"11. Dharmette: Gil's Story (2 of 5) Getting Ready for Zen",
-			"url":"/19311/20231128-Gil_Fronsdal-IMC-dharmette_gil_s_story_2_of_5_getting_ready_for_zen.mp3"
+			"title":"11. Return to your center",
+			"url":"/19487/20231224-Gil_Fronsdal-IMC-return_to_your_center.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"12. Return to your center",
-			"url":"/19487/20231224-Gil_Fronsdal-IMC-return_to_your_center.mp3"
+			"title":"12. Dharmette: Gil's Story (2 of 5) Getting Ready for Zen",
+			"url":"/19311/20231128-Gil_Fronsdal-IMC-dharmette_gil_s_story_2_of_5_getting_ready_for_zen.mp3"
 		},
 		{
 			"series":"",
@@ -149095,14 +149159,14 @@
 		{
 			"series":"",
 			"section":"_",
-			"title":"116. Spiritual Friends",
-			"url":"/2802/20120101-Kim_Allen-IMC-spiritual_friends.mp3"
+			"title":"116. Eightfold Path: Right View (1 of 3)",
+			"url":"/12332/20201028-Gil_Fronsdal-IMC-eightfold_path_right_view_1_of_3.mp3"
 		},
 		{
 			"series":"",
 			"section":"_",
-			"title":"117. Eightfold Path: Right View (1 of 3)",
-			"url":"/12332/20201028-Gil_Fronsdal-IMC-eightfold_path_right_view_1_of_3.mp3"
+			"title":"117. Spiritual Friends",
+			"url":"/2802/20120101-Kim_Allen-IMC-spiritual_friends.mp3"
 		},
 		{
 			"series":"",
